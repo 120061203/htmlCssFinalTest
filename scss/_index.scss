@@ -92,3 +92,43 @@ nav{
         }
     }
 }
+.banner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        // align-items: center;
+        justify-content: center;
+    img{
+        // max-width: 100%;
+        width: 100%;
+        position: relative;
+        float: left;
+        
+    }
+    .cover{
+        
+        width: 100%;
+        // height: 20%;
+        color: white;
+        padding:5%;
+        font-weight:lighter;
+        position:absolute;
+        
+        
+        
+        
+        background-color: rgba(0,0,0,.5);
+        
+        
+        .top{
+            width: 100%;
+            // background-color: red;
+            font-weight:normal;
+        }
+        .bottom{
+            width: 100%;
+            // background-color: blue;
+            font-weight:normal;
+        }
+    }
+}
