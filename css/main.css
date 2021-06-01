@@ -127,9 +127,10 @@ nav a:visited {
 }
 
 .banner .cover {
+  max-width: 100%;
+  overflow: hidden;
   width: 100%;
   color: white;
-  padding: 5%;
   font-weight: lighter;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.5);
