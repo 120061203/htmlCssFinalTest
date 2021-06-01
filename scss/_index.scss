@@ -55,3 +55,40 @@
         }
     }
 }
+h1{
+    display: inline-block;
+    width: 30%;
+}
+nav{
+    width: 70%;
+    float:right;
+    
+    ul{
+        color:$hexschool-primary;
+        display: flex;
+        list-style: none;
+        font-weight: bold;
+        // background-color: #acd;
+        position: absolute;
+        right:0;
+        
+    }
+    li{
+        
+        margin: 15px 5px;
+        padding:10px;
+        border-bottom: 3px rgba(0,0,0,0%) solid;
+        justify-content: flex-end;
+        // background-color: green;
+        &:hover{
+            border-bottom: 3px $hexschool-primary solid;
+            
+        }
+    }
+    a{
+        padding:12px;
+        &:visited{
+            color:$hexschool-primary;
+        }
+    }
+}
