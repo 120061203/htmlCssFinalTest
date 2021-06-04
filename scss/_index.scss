@@ -189,6 +189,7 @@ nav{
                 height: 30px;
                 padding:5px 20px;
                 border-top:2px solid #e8e8e8;
+                border-bottom: 2px solid #e8e8e8;
             }
             thead{
                 background-color: #f7f7f7;
@@ -197,6 +198,50 @@ nav{
         }
         .hexSchoolColor{
             color:$hexschool-primary;
+        }
+    }
+    .contactInformation{
+        width: 80%;
+        margin: 40px auto;
+        padding:10px;
+        text-align: center;
+        background-color: #00654c;
+        color:white;
+        .form{
+            display: flex;
+            margin-top: 20px;
+            
+        }
+        .left{
+            width: 50%;
+            height: 200px;
+            background-color: #fff;
+            margin-right: 20px;
+        }
+        .right{
+            width: 50%;
+            text-align: left;
+            // background-color: blue;
+            
+            input{
+                width: 100%;
+                padding:3px;
+                margin-bottom: 10px;
+                outline: none;
+                border-radius: 5px;
+            }
+            input[type="submit"]{
+                width: 18%;
+                color:white;
+                padding:5px;
+                background-color: #00cc99;
+                transition:.3s;
+                float:right;
+                &:hover{
+                    background-color: lighten(#00cc99,10%);
+                    transition:.3s;
+                }
+            }
         }
     }
 }

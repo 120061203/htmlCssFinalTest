@@ -218,6 +218,7 @@ nav a:visited {
   height: 30px;
   padding: 5px 20px;
   border-top: 2px solid #e8e8e8;
+  border-bottom: 2px solid #e8e8e8;
 }
 
 .container .compareDifference table thead {
@@ -226,5 +227,57 @@ nav a:visited {
 
 .container .compareDifference .hexSchoolColor {
   color: #00cc99;
+}
+
+.container .contactInformation {
+  width: 80%;
+  margin: 40px auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #00654c;
+  color: white;
+}
+
+.container .contactInformation .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.container .contactInformation .left {
+  width: 50%;
+  height: 200px;
+  background-color: #fff;
+  margin-right: 20px;
+}
+
+.container .contactInformation .right {
+  width: 50%;
+  text-align: left;
+}
+
+.container .contactInformation .right input {
+  width: 100%;
+  padding: 3px;
+  margin-bottom: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+
+.container .contactInformation .right input[type="submit"] {
+  width: 18%;
+  color: white;
+  padding: 5px;
+  background-color: #00cc99;
+  -webkit-transition: .3s;
+  transition: .3s;
+  float: right;
+}
+
+.container .contactInformation .right input[type="submit"]:hover {
+  background-color: #00ffbf;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 /*# sourceMappingURL=main.css.map */
