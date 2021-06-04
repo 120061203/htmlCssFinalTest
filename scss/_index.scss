@@ -149,6 +149,16 @@ nav{
             border-top:none;
             box-shadow:0px 1px  3px #ccc ;
         }
+        img{
+            width: 30%;
+        }
+        .bigPic{
+            width: 70%;
+            margin-bottom: 15px;
+        }
+        .title{
+            font-weight: bold;
+        }
         .content{
             margin-top: 10px;
             text-align: left;
@@ -156,6 +166,37 @@ nav{
                 position: relative;
                 left:20px;
             }
+        }
+    }
+    .compareDifference{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        table{
+            text-align-last: left;
+            width: 100%;
+            margin-top: 10px;
+            padding:5px 20px;
+            border-collapse: collapse;
+            font-weight: 600;
+            tr{
+                width: 25%;
+            }
+            th{
+                padding:5px 20px;
+            }
+            td{
+                height: 30px;
+                padding:5px 20px;
+                border-top:2px solid #e8e8e8;
+            }
+            thead{
+                background-color: #f7f7f7;
+ 
+            }
+        }
+        .hexSchoolColor{
+            color:$hexschool-primary;
         }
     }
 }
