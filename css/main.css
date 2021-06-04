@@ -149,4 +149,32 @@ nav a:visited {
   width: 100%;
   font-weight: normal;
 }
+
+.container .base-introduce {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2%;
+}
+
+.container .base-introduce .box {
+  width: 33.33%;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border: #eee solid 1px;
+  border-top: none;
+  -webkit-box-shadow: 0px 1px  3px #ccc;
+          box-shadow: 0px 1px  3px #ccc;
+}
+
+.container .base-introduce .content {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.container .base-introduce .content ul {
+  position: relative;
+  left: 20px;
+}
 /*# sourceMappingURL=main.css.map */
