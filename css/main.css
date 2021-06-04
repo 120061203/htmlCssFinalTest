@@ -234,7 +234,8 @@ nav a:visited {
   margin: 40px auto;
   padding: 10px;
   text-align: center;
-  background-color: #00654c;
+  background: -webkit-gradient(linear, left top, left bottom, from(#00644b), to(#009772));
+  background: linear-gradient(#00644b, #009772);
   color: white;
 }
 
@@ -250,6 +251,7 @@ nav a:visited {
   height: 200px;
   background-color: #fff;
   margin-right: 20px;
+  border-radius: 5px;
 }
 
 .container .contactInformation .right {
@@ -279,5 +281,24 @@ nav a:visited {
   background-color: #00ffbf;
   -webkit-transition: .3s;
   transition: .3s;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+footer .logo {
+  display: inline-block;
+  width: 200px;
+}
+
+footer .contactUs {
+  float: right;
+}
+
+footer .contactUs span {
+  color: #e65397;
 }
 /*# sourceMappingURL=main.css.map */

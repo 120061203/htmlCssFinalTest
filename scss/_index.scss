@@ -205,7 +205,7 @@ nav{
         margin: 40px auto;
         padding:10px;
         text-align: center;
-        background-color: #00654c;
+        background: linear-gradient(#00644b, #009772);
         color:white;
         .form{
             display: flex;
@@ -217,6 +217,7 @@ nav{
             height: 200px;
             background-color: #fff;
             margin-right: 20px;
+            border-radius: 5px;
         }
         .right{
             width: 50%;
@@ -242,6 +243,23 @@ nav{
                     transition:.3s;
                 }
             }
+        }
+    }//contactInformation end
+}
+footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    .logo{
+        display: inline-block;
+        width: 200px;
+    }
+    .contactUs{
+        // position: absolute;
+        // right:0;
+        float: right;
+        span{
+            color:#e65397;
         }
     }
 }
