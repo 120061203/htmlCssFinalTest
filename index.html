@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="cssCompressed/main.min.css">
-    <script src=""></script>
+    
+    <script src="js/all.js"></script>
     <title>六角學院</title>
 </head>
 <body>
@@ -31,12 +35,26 @@
         </ul>
     </nav><!-- nav end-->
     <div class="banner">
-        <img src="images/banner.png" alt="形象圖-電腦">
+        <!-- <img src="images/banner.png" alt="形象圖-電腦"> -->
+        
+            
+        
+        <div class="swiper-container mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/banner.png" alt="形象圖-電腦"></div>
+                <div class="swiper-slide"><img src="images/banner.png" alt="形象圖-電腦"></div>
+                <div class="swiper-slide"><img src="images/banner.png" alt="形象圖-電腦"></div>
+                <div class="swiper-slide"><img src="images/banner.png" alt="形象圖-電腦"></div>
+
+            </div>
+        </div>
         <div class="cover">
             <h1 class="top">六角學院</h1>
             <h1 class="bottom">讓您奠定良好的前端基礎</h1>
         </div>
-
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </div><!--banner end-->
     <div class="container">
         <div class="base-introduce">
@@ -140,5 +158,19 @@
             <h5>電話：<span>0999123456</span></h5>
         </div>
     </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          type: "fraction",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 </body>
 </html> 

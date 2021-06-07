@@ -85,6 +85,7 @@ nav ul {
   font-weight: bold;
   position: absolute;
   right: 0;
+  z-index: 30;
 }
 
 nav li {
@@ -98,10 +99,6 @@ nav li {
 
 nav li:hover {
   border-bottom: 3px #00cc99 solid;
-}
-
-nav li:hover ul {
-  display: inline-block;
 }
 
 nav a {
@@ -153,6 +150,7 @@ nav .dropDownOpen {
   padding-left: 5%;
   font-weight: lighter;
   position: absolute;
+  z-index: 5;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -316,5 +314,44 @@ footer .contactUs {
 
 footer .contactUs span {
   color: #e65397;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-pagination {
+  color: white;
+  position: relative;
+  top: -50px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

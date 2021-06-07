@@ -71,6 +71,7 @@ nav{
         // background-color: #acd;
         position: absolute;
         right:0;
+        z-index: 30;
         
     }
     li{
@@ -82,10 +83,9 @@ nav{
         // background-color: green;
         &:hover{
             border-bottom: 3px $hexschool-primary solid;
-            ul{
-                display:inline-block;
-            }
+            
         }
+        
     }
     a{
         padding:12px;
@@ -129,6 +129,7 @@ nav{
         padding-left:5%;
         font-weight:lighter;
         position:absolute;
+        z-index: 5;
         
         
         
