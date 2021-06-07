@@ -100,12 +100,28 @@ nav li:hover {
   border-bottom: 3px #00cc99 solid;
 }
 
+nav li:hover ul {
+  display: inline-block;
+}
+
 nav a {
   padding: 12px;
 }
 
 nav a:visited {
   color: #00cc99;
+}
+
+nav .dropDownOpen {
+  width: calc(33.33333% + 12px);
+  padding: 0;
+  position: absolute;
+  top: 59px;
+  right: calc(33.33333% + 10px);
+  display: none;
+  background-color: #fff;
+  z-index: 5;
+  cursor: pointer;
 }
 
 .banner {

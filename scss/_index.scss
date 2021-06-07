@@ -82,7 +82,9 @@ nav{
         // background-color: green;
         &:hover{
             border-bottom: 3px $hexschool-primary solid;
-            
+            ul{
+                display:inline-block;
+            }
         }
     }
     a{
@@ -90,6 +92,17 @@ nav{
         &:visited{
             color:$hexschool-primary;
         }
+    }
+    .dropDownOpen{
+        width: calc(33.33333% + 12px);
+        padding: 0;
+        position: absolute;
+        top:59px;
+        right:calc(33.33333% + 10px);
+        display: none;
+        background-color: #fff;
+        z-index: 5;
+        cursor:pointer;
     }
 }
 .banner{
