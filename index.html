@@ -8,13 +8,15 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js'></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="lightbox/css/lightbox.css">
+    <script src="https://kit.fontawesome.com/f810d2bb4c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="cssCompressed/main.min.css">
     
     <script src="js/all.js"></script>
     <title>六角學院</title>
 </head>
 <body>
-    <div class="socialLink">
+    <div class="socialLink" id="top">
         <ul>
             <li><a href="#" class="facebookColor"><img src="images/facebookIcon.png" alt="臉書粉絲團">粉絲團</a></li>
             <li><a href="#" class="twitterColor"><img src="images/twitterIcon.png" alt="推特">追隨我們</a></li>
@@ -59,17 +61,20 @@
     <div class="container">
         <div class="base-introduce">
             <div class="box">
-                <img src="images/html.png" alt="">
+                <!-- <img class="bigPic" src="images/html.png" alt=""> -->
+                <a href="images/html.png" data-lightbox="image-1" data-title="Html5基礎教學"><img src="images/html.png" alt=""></a>
                 <div class="title">Html5基礎教學</div>
                 <div class="content">主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法</div>
             </div>
             <div class="box">
-                <img class="bigPic" src="images/rwd.png" alt="">
+                <!-- <img class="bigPic" src="images/rwd.png" alt=""> -->
+                <a href="images/rwd.png" data-lightbox="image-2" data-title="響應式網站設計"><img src="images/rwd.png" class="bigPic" alt=""></a>
                 <div class="title">響應式網站設計</div>
                 <div class="content">響應式網站設計（Responsive web design），目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生了解行動版開發技巧。</div>
             </div>
             <div class="box">
-                <img src="images/jQuery.png" alt="">
+                <!-- <img src="images/jQuery.png" alt=""> -->
+                <a href="images/jQuery.png" data-lightbox="image-3" data-title="jQuery實戰教學"><img src="images/jQuery.png" alt=""></a>
                 <div class="title">jQuery實戰教學</div>
                 <div class="content">本課程有以下特色
                     <ul>
@@ -157,6 +162,8 @@
             <h5>聯絡我們：<span>hexschool@gmail.com</span></h5>
             <h5>電話：<span>0999123456</span></h5>
         </div>
+        <a href="#top"><i class="fas fa-arrow-circle-up"></i></a>
+        
     </footer>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -172,5 +179,6 @@
         },
       });
     </script>
+    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html> 

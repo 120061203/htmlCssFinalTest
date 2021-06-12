@@ -3,4 +3,10 @@ $(document).ready(function(){
         event.preventDefault();
         $('.dropDownOpen').slideToggle();
     });
+    //lightbox
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'positionFromTop':300
+      })
 });
