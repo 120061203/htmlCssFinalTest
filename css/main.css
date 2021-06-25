@@ -277,6 +277,7 @@ nav.indexNav .dropDownOpen {
   background-color: #fff;
   margin-right: 20px;
   border-radius: 5px;
+  resize: none;
 }
 
 .wrap .contactInformation .right {
