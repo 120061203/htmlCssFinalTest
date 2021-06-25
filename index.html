@@ -34,7 +34,7 @@
             <li><a href="#" class="twitterColor"><img src="images/twitterIcon.png" alt="推特">追隨我們</a></li>
         </ul>
     </div><!-- sociaLink end-->
-    <h1><a href="https://www.hexschool.com/" target="_blank"><img src="images/logo.png" alt=""></a></h1>
+    <h1><a href="https://www.hexschool.com/" target="_blank"><img src="images/logo.png" alt="六角學院logo"></a></h1>
     <nav class="indexNav">
         <ul>
             <li><a href="">首頁</a></li>
@@ -48,6 +48,7 @@
             <li><a href="">聯絡我們</a></li>
         </ul>
     </nav><!-- nav end-->
+    <div class="clear"></div>
     <div class="banner">
         <!-- <img src="images/banner.png" alt="形象圖-電腦"> -->
         
@@ -74,19 +75,19 @@
         <div class="base-introduce">
             <div class="box">
                 <!-- <img class="bigPic" src="images/html.png" alt=""> -->
-                <a href="images/html.png" data-lightbox="image-1" data-title="Html5基礎教學"><img src="images/html.png" alt=""></a>
+                <a href="images/html.png" data-lightbox="image-1" data-title="Html5基礎教學"><img src="images/html.png" alt="html基礎教學圖"></a>
                 <div class="title">Html5基礎教學</div>
                 <div class="content">主流前端網站設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法</div>
             </div>
             <div class="box">
                 <!-- <img class="bigPic" src="images/rwd.png" alt=""> -->
-                <a href="images/rwd.png" data-lightbox="image-2" data-title="響應式網站設計"><img src="images/rwd.png" class="bigPic" alt=""></a>
+                <a href="images/rwd.png" data-lightbox="image-2" data-title="響應式網站設計"><img src="images/rwd.png" class="bigPic" alt="響應式網站設計圖"></a>
                 <div class="title">響應式網站設計</div>
                 <div class="content">響應式網站設計（Responsive web design），目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生了解行動版開發技巧。</div>
             </div>
             <div class="box">
                 <!-- <img src="images/jQuery.png" alt=""> -->
-                <a href="images/jQuery.png" data-lightbox="image-3" data-title="jQuery實戰教學"><img src="images/jQuery.png" alt=""></a>
+                <a href="images/jQuery.png" data-lightbox="image-3" data-title="jQuery實戰教學"><img src="images/jQuery.png" alt="jQuery實戰教學圖"></a>
                 <div class="title">jQuery實戰教學</div>
                 <div class="content">本課程有以下特色
                     <ul>
@@ -153,15 +154,17 @@
             <h3>對我們課程有興趣嗎？</h2>
             <h3>歡迎留下您的資料</h2>
             <div class="form">
-                <div class="left">空白</div>
+                <textarea class="form-textarea"></textarea>
                 <div class="right">
                     <form action="post">
-                        <h5>姓名</h5><input type="text">
-                        <h5>電話</h5><input type="phone">
-                        <h5>信箱</h5><input type="email">
+                        
+                        <label for="yourName">姓名</label><input type="text" id="yourName">
+                        <label for="yourTel">電話</label><input type="tel" id="yourTel">
+                        <label for="yourMail">郵箱</label><input type="email" id="yourMail">
                         <input type="submit" value="送出">
                     </form>
                 </div>
+                <div class="clear"></div>
             </div>
             
         </div>
@@ -171,8 +174,12 @@
             <img src="images/footerLogo.png" alt="">
         </div>
         <div class="contactUs">
-            <h5>聯絡我們：<span>hexschool@gmail.com</span></h5>
-            <h5>電話：<span>0999123456</span></h5>
+            <ul>
+                <li><h5>聯絡我們：<a href="mailto:hexschool@gmail.com"><span>hexschool@gmail.com</span></a></h5></li>
+                <li><h5>電話：<a href="tel:+0999123456"><span>0999123456</span></a></h5></li>
+            </ul>
+            
+            
         </div>
         <a href="#top"><i class="fas fa-arrow-circle-up"></i></a>
         

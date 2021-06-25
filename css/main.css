@@ -13,14 +13,12 @@ html {
 }
 
 .socialLink {
-  height: 30px;
+  height: 6vh;
   background-color: #f6f6f6;
   line-height: 30px;
 }
 
 .socialLink ul {
-  width: 200px;
-  height: 30px;
   position: absolute;
   right: 0%;
   top: -10px;
@@ -39,8 +37,8 @@ html {
 }
 
 .socialLink li a {
+  padding-top: 5px;
   position: relative;
-  top: 5px;
   text-decoration: none;
 }
 
@@ -123,6 +121,10 @@ nav.indexNav .dropDownOpen {
   background-color: #fff;
   z-index: 5;
   cursor: pointer;
+}
+
+.clear {
+  clear: both;
 }
 
 .banner {
@@ -269,7 +271,7 @@ nav.indexNav .dropDownOpen {
   margin-top: 20px;
 }
 
-.wrap .contactInformation .left {
+.wrap .contactInformation .form-textarea {
   width: 50%;
   height: 200px;
   background-color: #fff;
@@ -298,6 +300,7 @@ nav.indexNav .dropDownOpen {
   -webkit-transition: .3s;
   transition: .3s;
   float: right;
+  cursor: pointer;
 }
 
 .wrap .contactInformation .right input[type="submit"]:hover {
@@ -314,7 +317,6 @@ footer {
 
 footer .logo {
   display: inline-block;
-  width: 200px;
 }
 
 footer .contactUs {
@@ -323,6 +325,10 @@ footer .contactUs {
 
 footer .contactUs span {
   color: #e65397;
+}
+
+footer .contactUs ul {
+  list-style: none;
 }
 
 footer i {

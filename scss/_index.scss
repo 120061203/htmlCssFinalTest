@@ -1,10 +1,12 @@
 .socialLink{
-    height: 30px;
+    // height: 30px;
+    height:6vh;
     background-color: #f6f6f6;
+    // background-color: red;
     line-height: 30px;
     ul{
-        width: 200px;
-        height: 30px;
+        // width: 200px;
+        // height: 30px;
         position: absolute;
         right:0%;
         // background-color: #aca;
@@ -23,9 +25,10 @@
         a{         
             // height: 30px;
             
-            // background-color: #fff;
+            // background-color: red;
+            padding-top:5px;
             position: relative;
-            top: 5px;  
+            // top: 5px;  
             text-decoration: none;
         }
         
@@ -88,7 +91,9 @@ nav.indexNav{
         
     }
     a{
+        // display: block;
         padding:12px;
+        // background-color: red;
         &:visited{
             color:$hexschool-primary;
         }
@@ -104,6 +109,9 @@ nav.indexNav{
         z-index: 5;
         cursor:pointer;
     }
+}
+.clear{
+    clear:both;
 }
 .banner{
         display: flex;
@@ -155,6 +163,7 @@ nav.indexNav{
     .base-introduce{
         display:flex;
         padding:2%;
+        
         .box{
             width: 33.33%;
             text-align: center;
@@ -227,7 +236,7 @@ nav.indexNav{
             margin-top: 20px;
             
         }
-        .left{
+        .form-textarea{
             width: 50%;
             height: 200px;
             background-color: #fff;
@@ -253,6 +262,7 @@ nav.indexNav{
                 background-color: #00cc99;
                 transition:.3s;
                 float:right;
+                cursor: pointer;
                 &:hover{
                     background-color: lighten(#00cc99,10%);
                     transition:.3s;
@@ -267,7 +277,9 @@ footer{
     padding-bottom: 50px;
     .logo{
         display: inline-block;
-        width: 200px;
+        // background-color: red;
+        // width: 200px;
+
     }
     .contactUs{
         // position: absolute;
@@ -276,6 +288,10 @@ footer{
         span{
             color:#e65397;
         }
+        ul{
+            list-style: none;
+        }
+        
     }
     
     i{
