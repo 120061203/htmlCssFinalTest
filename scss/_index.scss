@@ -59,7 +59,7 @@ h1{
     display: inline-block;
     width: 30%;
 }
-nav{
+nav.indexNav{
     width: 70%;
     float:right;
     
@@ -149,8 +149,9 @@ nav{
         }
     }
 }
-.container{
-    
+.wrap{
+    width: 90%;
+    margin: 0 auto;
     .base-introduce{
         display:flex;
         padding:2%;
